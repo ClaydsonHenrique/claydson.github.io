@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.721a9b31.css",
-    "main.js": "/claydson.github.io/static/js/main.7a58dbe5.js",
+    "main.css": "/claydson.github.io/static/css/main.02fb6843.css",
+    "main.js": "/claydson.github.io/static/js/main.5e5e4320.js",
     "index.html": "/claydson.github.io/index.html",
-    "main.721a9b31.css.map": "/claydson.github.io/static/css/main.721a9b31.css.map",
-    "main.7a58dbe5.js.map": "/claydson.github.io/static/js/main.7a58dbe5.js.map"
+    "main.02fb6843.css.map": "/claydson.github.io/static/css/main.02fb6843.css.map",
+    "main.5e5e4320.js.map": "/claydson.github.io/static/js/main.5e5e4320.js.map"
   },
   "entrypoints": [
-    "static/css/main.721a9b31.css",
-    "static/js/main.7a58dbe5.js"
+    "static/css/main.02fb6843.css",
+    "static/js/main.5e5e4320.js"
   ]
 }
