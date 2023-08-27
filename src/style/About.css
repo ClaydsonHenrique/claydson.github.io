@@ -1,0 +1,20 @@
+#about{
+width: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px;
+}
+
+#about h1 {
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.aboutText{
+width: 500px;
+font-size: 20px;
+text-align: center;
+line-height: 26px;
+}

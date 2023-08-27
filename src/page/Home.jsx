@@ -8,18 +8,21 @@ const imagem = "https://cdn.colegioplanck.com.br/wp-content/uploads/2021/06/Cole
 export default function Home() {
   return (
     <section id="home">
-<div style={{ padding: "90px 0", display: "flex", justifyContent: "space-around"}}>
-      <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", width: "400px" }}>
-        <h2>Claydson Henrique !!</h2>
-        <p> Developer Web</p>
-        <p> Learn more about my experiences and projects!</p>
+      <div style={{ padding: "90px 0", display: "flex", justifyContent: "space-around" }}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", width: "400px" }}>
+          <h2>Claydson Henrique !!</h2>
+          <p> Developer Web</p>
+          <p> Learn more about my experiences and projects!</p>
+        </div>
+        <div >
+          <img src={imagem} alt="" style={{ height: "300px", width: "400px", borderRadius: "20px" }} id="img" />
+        </div>
       </div>
-      <div >
-        <img src={imagem} alt="" style={{ height: "300px", width: "400px", borderRadius: "20px" }} id="img" />
-      </div>
-</div>
+      <div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
       <About />
+<div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
       <Skill />
+<div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
       <Projects />
     </section>
   )
