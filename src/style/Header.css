@@ -1,5 +1,12 @@
 html {
   scroll-behavior:smooth;
+/* background: linear-gradient(80deg, rgba(23,5,64,1) 0%, rgba(98,0,238,0.8603816526610644) 41%, rgba(2,106,133,1) 64%); */
+/* background: linear-gradient(153deg, rgba(97,6,215,1) 35%, rgba(71,199,244,1) 51%); */
+background: linear-gradient(216deg, rgba(97,6,215,1) 26%, rgba(2,219,228,1) 79%);
+/* background: linear-gradient(216deg, rgba(97,6,215,1) 20%, rgba(2,219,228,1) 67%, rgba(206,229,232,1) 99%); */
+/* background: linear-gradient(216deg, rgba(0,0,0,1) 26%, rgba(41,38,42,1) 78%, rgba(206,229,232,1) 99%); */
+/* background: linear-gradient(216deg, rgba(0,0,0,1) 25%, rgba(78,78,79,1) 53%, rgba(140,139,147,1) 87%) */
+
 }
 
 

@@ -8,7 +8,7 @@ const imagem = "https://cdn.colegioplanck.com.br/wp-content/uploads/2021/06/Cole
 export default function Home() {
   return (
     <section id="home">
-<div style={{ padding: "90px 0", display: "flex", justifyContent: "space-around", backgroundColor: "#4a148c"}}>
+<div style={{ padding: "90px 0", display: "flex", justifyContent: "space-around"}}>
       <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", width: "400px" }}>
         <h2>Claydson Henrique !!</h2>
         <p> Developer Web</p>

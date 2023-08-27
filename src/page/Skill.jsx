@@ -20,7 +20,7 @@ const renderSkills = (typeSkills) => {
 export default function Skill() {
   return (
 
-    <section id="skills" style={{ padding: '60px', backgroundColor: "#4a148c", }}>
+    <section id="skills" style={{ padding: '60px',}}>
       <h1 style={{ textAlign: 'center', fontSize:'35px' }}> HARD AND SOFT SKILLS</h1>
       <div style={{ display: "flex", justifyContent: "center",gap:'40px', padding: '50px ', lineHeight: '25px' , fontSize:'20px'}} >
         {renderSkills('hardSkills')}
