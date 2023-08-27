@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/claydson.io/static/css/main.e6c13ad2.css",
-    "main.js": "/claydson.io/static/js/main.24f82a88.js",
-    "static/js/787.be55e6d0.chunk.js": "/claydson.io/static/js/787.be55e6d0.chunk.js",
+    "main.css": "/claydson.io/static/css/main.721a9b31.css",
+    "main.js": "/claydson.io/static/js/main.530cb632.js",
     "index.html": "/claydson.io/index.html",
-    "main.e6c13ad2.css.map": "/claydson.io/static/css/main.e6c13ad2.css.map",
-    "main.24f82a88.js.map": "/claydson.io/static/js/main.24f82a88.js.map",
-    "787.be55e6d0.chunk.js.map": "/claydson.io/static/js/787.be55e6d0.chunk.js.map"
+    "main.721a9b31.css.map": "/claydson.io/static/css/main.721a9b31.css.map",
+    "main.530cb632.js.map": "/claydson.io/static/js/main.530cb632.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.24f82a88.js"
+    "static/css/main.721a9b31.css",
+    "static/js/main.530cb632.js"
   ]
 }
