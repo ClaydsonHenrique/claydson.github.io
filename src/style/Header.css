@@ -1,0 +1,49 @@
+html {
+  scroll-behavior:smooth;
+}
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: white;
+}
+
+#header{
+width: 100%;
+position: fixed;
+left: -10px;
+top: -10px;
+margin: 10px;
+padding: 15px;
+background-color: #512da8;
+}
+
+.nav{
+display: flex;
+justify-content: end;
+margin-right: 60px;
+gap: 40px;
+}
+
+.nav a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+
+
+nav a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: rgb(193, 193, 255);
+  transition: 0.2s;
+}
+
+nav a:hover:after {
+  width: 100%;
+}

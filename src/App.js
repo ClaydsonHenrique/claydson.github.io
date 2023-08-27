@@ -1,11 +1,17 @@
+import React from 'react'
+import Hearder from './components/Header'
+import Home from './page/Home'
+import Footer from './components/Footer'
+import './style/Header.css'
+import './style/mobilePage.css'
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Eu te amooo !!</h1>
-      </header>
+    <div style={{position:'relative'}}>
+      <Hearder />
+      <Home />
+      <Footer />
     </div>
   );
 }
