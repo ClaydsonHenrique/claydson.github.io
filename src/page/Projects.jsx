@@ -14,7 +14,7 @@ export default function Projects() {
     <section
       id="projects"
       style={{  background: "#7e57c2",display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", paddingBottom: "60px", padding:'60px' }}>
-      <h2 style={{paddingBottom:'40px'}}>Alguns dos meus projetos</h2>
+      <h2 style={{paddingBottom:'40px'}}>Here is one of my projects</h2>
       {renderProjects()}
       <section style={{ display: "flex", gap: "40px", flexWrap: "wrap", justifyContent: "center" }}>
         <div style={{ backgroundColor: "black", height: "250px", width: "350px" }}></div>

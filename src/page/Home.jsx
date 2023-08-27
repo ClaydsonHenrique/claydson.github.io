@@ -12,7 +12,7 @@ export default function Home() {
       <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", width: "400px" }}>
         <h2>Claydson Henrique !!</h2>
         <p> Developer Web</p>
-        <p> conheça mais sobre minhas experiencias e projetos !!</p>
+        <p> Learn more about my experiences and projects!</p>
       </div>
       <div >
         <img src={imagem} alt="" style={{ height: "300px", width: "400px", borderRadius: "20px" }} id="img" />
