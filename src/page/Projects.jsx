@@ -24,10 +24,18 @@ export default function Projects() {
       <section style={{ display: "flex", gap: "40px", flexWrap: "wrap", justifyContent: "center" }}>
         <div className="containerProject">
           <div className="imageContainer" >
+            <img src={jogoDaMemoria} alt="" className="image" />
+          </div>
+          <div>
+            <p className="textProject"> Este é um projeto de jogo da memória desenvolvido usando a biblioteca React. O jogo oferece três níveis de dificuldade e três conjuntos de cartas temáticas para tornar a experiência de jogo mais envolvente e desafiadora. </p>
+          </div>
+        </div>
+        <div className="containerProject">
+          <div className="imageContainer" >
             <img src={comic} alt="" className="image" />
           </div>
           <div>
-            <p style={{ width: "350px", color: 'black', padding: '5px' }}> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
+            <p className="textProject"> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
           </div>
         </div>
         <div className="containerProject">
@@ -35,15 +43,7 @@ export default function Projects() {
             <img src={calculadora} alt="" className="image" />
           </div>
           <div>
-            <p style={{ width: "350px", color: 'black', padding: '5px' }}> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
-          </div>
-        </div>
-        <div className="containerProject">
-          <div className="imageContainer" >
-            <img src={jogoDaMemoria} alt="" className="image" />
-          </div>
-          <div>
-            <p style={{ width: "350px", color: 'black', padding: '5px' }}> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
+            <p className="textProject"> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
           </div>
         </div>
       </section>
