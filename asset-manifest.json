@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.6daf156d.css",
-    "main.js": "/claydson.github.io/static/js/main.92487d31.js",
-    "static/media/comic.png": "/claydson.github.io/static/media/comic.fd4e65f7c5174e37cf1d.png",
-    "static/media/jogo-da-memoria.png": "/claydson.github.io/static/media/jogo-da-memoria.49cfd66581e3b349d759.png",
-    "static/media/calculadora.png": "/claydson.github.io/static/media/calculadora.c57498db67d6b6503a3c.png",
+    "main.css": "/claydson.github.io/static/css/main.e8128915.css",
+    "main.js": "/claydson.github.io/static/js/main.4070765a.js",
     "index.html": "/claydson.github.io/index.html",
-    "main.6daf156d.css.map": "/claydson.github.io/static/css/main.6daf156d.css.map",
-    "main.92487d31.js.map": "/claydson.github.io/static/js/main.92487d31.js.map"
+    "main.e8128915.css.map": "/claydson.github.io/static/css/main.e8128915.css.map",
+    "main.4070765a.js.map": "/claydson.github.io/static/js/main.4070765a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6daf156d.css",
-    "static/js/main.92487d31.js"
+    "static/css/main.e8128915.css",
+    "static/js/main.4070765a.js"
   ]
 }
