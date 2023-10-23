@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.b620d0b2.css",
+    "main.css": "/claydson.github.io/static/css/main.8c1af763.css",
     "main.js": "/claydson.github.io/static/js/main.92487d31.js",
     "static/media/comic.png": "/claydson.github.io/static/media/comic.fd4e65f7c5174e37cf1d.png",
     "static/media/jogo-da-memoria.png": "/claydson.github.io/static/media/jogo-da-memoria.49cfd66581e3b349d759.png",
     "static/media/calculadora.png": "/claydson.github.io/static/media/calculadora.c57498db67d6b6503a3c.png",
     "index.html": "/claydson.github.io/index.html",
-    "main.b620d0b2.css.map": "/claydson.github.io/static/css/main.b620d0b2.css.map",
+    "main.8c1af763.css.map": "/claydson.github.io/static/css/main.8c1af763.css.map",
     "main.92487d31.js.map": "/claydson.github.io/static/js/main.92487d31.js.map"
   },
   "entrypoints": [
-    "static/css/main.b620d0b2.css",
+    "static/css/main.8c1af763.css",
     "static/js/main.92487d31.js"
   ]
 }
