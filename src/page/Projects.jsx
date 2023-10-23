@@ -43,7 +43,7 @@ export default function Projects() {
             <img src={calculadora} alt="" className="image" />
           </div>
           <div>
-            <p className="textProject"> Marvel Web, é uma plataforma web dinâmica que mergulha profundamente no vasto universo dos quadrinhos da Marvel. Com o poder do React e Redux e integrei a API da Marvel </p>
+            <p className="textProject"> Desenvolvemos uma calculadora interativa em JavaScript que é funcional e divertida. Não se trata apenas de cálculos, mas também de uma experiência agradável e descontraída. O CSS foi cuidadosamente estilizado para tornar a calculadora visualmente atraente. </p>
           </div>
         </div>
       </section>
