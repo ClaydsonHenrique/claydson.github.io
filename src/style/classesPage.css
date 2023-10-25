@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    background-color: var(--neutral--800);
+    color: var(--neutral--400);
+    font-family: Spacegrotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.667em;
+}
+
+.header-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.pg-1 {
+  padding: 10px;
+}
+
+.pg-2 {
+  padding: 20px;
+}
+
+.bg-padrao {
+  background-color: var(--neutral--800);
+}
+
+.bg-secundario {
+  background-color: var(--neutral--700);
+}
+
+.text-200 {
+    line-height: 1.111em;
+}
+
+.text-200.bold {
+    color: var(--neutral--100);
+    font-weight: 700;
+}
+
+.text-uppercase {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.cor-1{
+ color: var(--neutral--100);
+}

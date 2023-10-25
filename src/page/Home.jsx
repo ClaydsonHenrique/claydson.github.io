@@ -1,29 +1,60 @@
-import React from "react";
-import About from "./About";
-import Skill from "./Skill";
-import Projects from "./Projects";
+import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import perfil from '../images/claydson.png'
+import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 
-const imagem = "https://cdn.colegioplanck.com.br/wp-content/uploads/2021/06/Colegio-Planck-Profissao-programador-o-que-faz-esse-profissional-tao-disputado-no-mercado-arte-2-Autores-Grupo-S2-Marketing-Freepik.jpg"
+
 
 export default function Home() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShow(true);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+  console.log(show)
   return (
-    <section id="home">
-      <div style={{ padding: "90px 0", display: "flex", justifyContent: "space-around" }}>
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", width: "400px" }}>
-          <h2>Claydson Henrique !!</h2>
-          <p> Developer Web</p>
-          <p> Learn more about my experiences and projects!</p>
+    <main id="home" className="pg-1 bg-padrao ">
+      <section className={`detailsHome ${show ? 'animate-up' : ''}`}>
+        <div className="container-title"  >
+          {/* titulo */}
+          <h1 className="tx-home-h1 whi-500 title " >I'm Claydson Henrique, a Web Developer</h1>
+          {/* descrição */}
+          <p className='text-02'>I'm 24 years old, a web developer based in Luziânia-Goiás. I have a passion for creating web pages and solving problems.</p>
+          {/* descreve uma pequena parte sobre alguma de suas paginas */}
+          <div className='marginBottom' >
+            <span className="traco"></span>
+            <h3 className='subtitle'>ABOUT ME</h3>
+            <p className='text-02'>Eu iniciei com web desenvolvedor atras de um curso intensivo, que tem duração de 1 ano e nos da conhecimento fullStacks. Desde então não paro mais de procurar conhecimeto e explorar novos desafios</p>
+            <Link className="cor-1 link">LEARN MORE </Link>
+          </div>
+          <span className="divisor"></span>
+          <div className='marginBottom'>
+            <h3 className='subtitle'>MY PAGES</h3>
+            <p className='text-02'>lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsulorn inpsu loren ipsu</p>
+            <div className='link'><Link className="cor-1 link ">LEARN MORE</Link></div>
+            <span className="divisor"></span>
+          </div>
+          <div className='marginBottom'>
+            <h3 className='subtitle'>FOLLOW ME</h3>
+            <div>
+              <Link to='https://github.com/ClaydsonHenrique' target="_blank"className='social'><AiFillGithub></AiFillGithub>
+              </Link>
+              <Link to='https://www.linkedin.com/in/claydson/' target="_blank"className='social'><AiFillLinkedin></AiFillLinkedin>
+              </Link>
+              <Link to='https://www.instagram.com/_claydson/'target="_blank"
+                className='social'><AiOutlineInstagram></AiOutlineInstagram>
+              </Link>
+            </div>
+          </div>
         </div>
-        <div >
-          <img src={imagem} alt="" style={{ height: "300px", width: "400px", borderRadius: "20px" }} id="img" />
+        <div className="image-container">
+          {/* adicione aqui seu perfil */}
+          <img className="homeImage" src={perfil} alt="" />
         </div>
-      </div>
-      <div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
-      <About />
-<div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
-      <Skill />
-<div style={{ height: '2px', backgroundColor: '#00BCD4', width: '40%', margin:'auto' }}></div>
-      <Projects />
-    </section>
+      </section>
+    </main>
   )
 }
