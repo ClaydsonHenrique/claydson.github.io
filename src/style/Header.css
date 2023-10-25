@@ -125,8 +125,6 @@
   .detailsHome {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .homeImage {
@@ -137,7 +135,6 @@
   .container-title {
     width: 100%;
     margin: 10px 0;
-    text-align: center;
   }
 
   .title {
@@ -157,4 +154,7 @@
     width: 100%;
     margin: 25px auto;
   }
+.subtitle{
+margin-bottom: 25px;
+}
 }
