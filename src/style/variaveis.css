@@ -1,0 +1,30 @@
+:root {
+  --neutral--800: #1b1f24;
+  --neutral--400: #c3cad5;
+  --neutral--100: white;
+  --neutral--500: #8895aa;
+  --neutral--700: #2d343f;
+  --neutral--300: #e4e7ec;
+  --general--shadow-01: rgba(20, 20, 43, .06);
+  --neutral--600: #5d6c83;
+  --accent--primary-1: #075fe4;
+  --secondary--color-1: #2e81ff;
+  --neutral--200: #f0f2f4;
+  --system--blue-400: #086cd9;
+  --system--blue-300: #1d88fe;
+  --system--blue-200: #8fc3ff;
+  --system--blue-100: #eaf4ff;
+  --general--shadow-02: rgba(20, 20, 43, .08);
+  --general--shadow-03: rgba(20, 20, 43, .1);
+  --general--shadow-04: rgba(20, 20, 43, .14);
+  --general--shadow-05: rgba(20, 20, 43, .16);
+  --general--shadow-06: rgba(20, 20, 43, .24);
+  --button-shadow--color-01: rgba(74, 58, 255, .06);
+  --button-shadow--color-2: rgba(58, 143, 255, .08);
+  --button-shadow--color-03: rgba(58, 143, 255, .08);
+  --button-shadow--white-01: rgba(20, 20, 43, .04);
+  --button-shadow--white-02: rgba(20, 20, 43, .06);
+  --button-shadow--white-03: rgba(20, 20, 43, .1);
+
+
+}
