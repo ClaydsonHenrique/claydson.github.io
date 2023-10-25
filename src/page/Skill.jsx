@@ -10,14 +10,30 @@ export default function Skill() {
   const [currentSkill, setCurrentSkill] = useState(0);
 
   const settings = {
-    infinite: true,
-    slidesToShow: 4,
+    centerMode: true,
+    centerPadding: '10px',
+    slidesToShow: 5,
+    speed: 500,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
+    arrows: true,
+    dots: false,
     afterChange: (current) => setCurrentSkill(current),
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const skills = [

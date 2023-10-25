@@ -12,13 +12,17 @@
   height: 350px;
   padding: 30px 0;
   margin-right: 30px;
-  border: 1px solid white;
+  background-color: #5d6c83;
   border-radius: 8px;
 }
 
 .skill {
-  font-size: 70px;
-  color: blue;
+ height: 90px;
+width: 90px;
+padding: 10px;
+border-radius: 50%;
+  background-color: blue;
+  color: rgb(162, 162, 233);
 }
 
 .habilidades:hover {
@@ -57,7 +61,7 @@
 
 .slick-slide {
   height: 400px !important;
-  margin: 0 20px -200px 0 !important;
+  margin: 30px 40px -200px 0 !important;
 }
 
 .container-radio {
