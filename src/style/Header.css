@@ -130,6 +130,7 @@
 
   .homeImage {
     height: 200px;
+
   }
 
   .container-title {
@@ -148,4 +149,5 @@
     padding-left: 25px;
     width: 100%;
   }
+
 }
