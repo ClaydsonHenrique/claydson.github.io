@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.b00a8095.css",
-    "main.js": "/claydson.github.io/static/js/main.707e786a.js",
+    "main.css": "/claydson.github.io/static/css/main.bcd6b98c.css",
+    "main.js": "/claydson.github.io/static/js/main.af4dceaf.js",
     "static/media/claydson.png": "/claydson.github.io/static/media/claydson.0567bb103e56afcd4b31.png",
     "static/media/logo.png": "/claydson.github.io/static/media/logo.0c83d50ec8eb2404f092.png",
+    "static/media/slick.svg": "/claydson.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/claydson.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/claydson.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/claydson.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/claydson.github.io/index.html",
-    "main.b00a8095.css.map": "/claydson.github.io/static/css/main.b00a8095.css.map",
-    "main.707e786a.js.map": "/claydson.github.io/static/js/main.707e786a.js.map"
+    "main.bcd6b98c.css.map": "/claydson.github.io/static/css/main.bcd6b98c.css.map",
+    "main.af4dceaf.js.map": "/claydson.github.io/static/js/main.af4dceaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b00a8095.css",
-    "static/js/main.707e786a.js"
+    "static/css/main.bcd6b98c.css",
+    "static/js/main.af4dceaf.js"
   ]
 }
