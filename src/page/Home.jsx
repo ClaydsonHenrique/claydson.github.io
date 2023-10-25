@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import perfil from '../images/claydson.png'
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 
+import AboutHome from '../components/AbouHome';
 
 
 export default function Home() {
@@ -40,11 +41,11 @@ export default function Home() {
           <div className='marginBottom'>
             <h3 className='subtitle'>FOLLOW ME</h3>
             <div>
-              <Link to='https://github.com/ClaydsonHenrique' target="_blank"className='social'><AiFillGithub></AiFillGithub>
+              <Link to='https://github.com/ClaydsonHenrique' target="_blank" className='social'><AiFillGithub></AiFillGithub>
               </Link>
-              <Link to='https://www.linkedin.com/in/claydson/' target="_blank"className='social'><AiFillLinkedin></AiFillLinkedin>
+              <Link to='https://www.linkedin.com/in/claydson/' target="_blank" className='social'><AiFillLinkedin></AiFillLinkedin>
               </Link>
-              <Link to='https://www.instagram.com/_claydson/'target="_blank"
+              <Link to='https://www.instagram.com/_claydson/' target="_blank"
                 className='social'><AiOutlineInstagram></AiOutlineInstagram>
               </Link>
             </div>
@@ -55,6 +56,7 @@ export default function Home() {
           <img className="homeImage" src={perfil} alt="" />
         </div>
       </section>
+      <AboutHome></AboutHome>
     </main>
   )
 }
