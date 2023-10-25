@@ -109,45 +109,52 @@
   color: var(--neutral--100);
 }
 
-@media (max-width:420px) {
+@media (max-width: 420px) {
   #header {
     padding: 0;
   }
 
   .nav {
-    visibility: hidden;
+    display: none;
   }
 
   .logo {
-    width: 250px;
+    width: 100%;
   }
 
   .detailsHome {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .homeImage {
-    height: 200px;
-
+    max-width: 100%;
+    height: auto;
   }
 
   .container-title {
-    width: 350px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin: 10px 0;
   }
 
   .title {
-    font-size: 55px;
-    line-height: 45px;
-    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 10px;
   }
 
   #home {
-    padding-left: 25px;
+    padding: 0;
     width: 100%;
+    text-align: start;
   }
 
+  .traco {
+    height: 1px;
+    width: 100%;
+    margin: 25px auto;
+  }
+.subtitle{
+margin-bottom: 25px;
+}
 }
