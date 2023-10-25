@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header id="header">
       <div>
-        <Link to="/"> <img src={logo} alt="" className="logo" /></Link>
+        <Link to="/" className="logo"><h1> { `Claydson Henrique </>`}</h1></Link>
       </div>
       <nav className="nav" >
         <a href="#home" >Home</a>

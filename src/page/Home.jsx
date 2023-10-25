@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import perfil from '../images/claydson.png'
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 
-import AboutHome from '../components/AbouHome';
-
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -15,26 +13,26 @@ export default function Home() {
     }, 100);
     return () => clearTimeout(timer);
   }, []);
-  console.log(show)
+
   return (
     <main id="home" className="pg-1 bg-padrao ">
       <section className={`detailsHome ${show ? 'animate-up' : ''}`}>
         <div className="container-title"  >
           {/* titulo */}
-          <h1 className="tx-home-h1 whi-500 title " >I'm Claydson Henrique, a Web Developer</h1>
+          <h1 className="whi-500 title " >I'm Claydson Henrique, a Web Developer</h1>
           {/* descrição */}
           <p className='text-02'>I'm 24 years old, a web developer based in Luziânia-Goiás. I have a passion for creating web pages and solving problems.</p>
           {/* descreve uma pequena parte sobre alguma de suas paginas */}
           <div className='marginBottom' >
             <span className="traco"></span>
             <h3 className='subtitle'>ABOUT ME</h3>
-            <p className='text-02'>Eu iniciei com web desenvolvedor atras de um curso intensivo, que tem duração de 1 ano e nos da conhecimento fullStacks. Desde então não paro mais de procurar conhecimeto e explorar novos desafios</p>
+            <p className='text-02'>Eu iniciei com web desenvolvedor atraves de um curso intensivo, que tem duração de 1 ano e nos da conhecimento tanto front quanto back end. Desde então não paro mais de procurar conhecimeto e explorar novos desafios</p>
             <Link className="cor-1 link">LEARN MORE </Link>
           </div>
           <span className="divisor"></span>
           <div className='marginBottom'>
             <h3 className='subtitle'>MY PAGES</h3>
-            <p className='text-02'>lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsu,lorn inpsu loren ipsulorn inpsu loren ipsu</p>
+            <p className='text-02'>Conheça alguns dos meu projetos feito esse ano, e acompanhe a evolução de cada um deles</p>
             <div className='link'><Link className="cor-1 link ">LEARN MORE</Link></div>
             <span className="divisor"></span>
           </div>
@@ -56,7 +54,6 @@ export default function Home() {
           <img className="homeImage" src={perfil} alt="" />
         </div>
       </section>
-      <AboutHome></AboutHome>
     </main>
   )
 }

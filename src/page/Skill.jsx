@@ -1,38 +1,67 @@
-import React from "react";
-import { SiHtml5, SiReact, SiRedux, SiTailwindcss, SiMysql, SiTypescript, SiTestinglibrary, SiJest, SiDaisyui, SiNextdotjs, SiCss3, SiJavascript, SiDocker, SiGit, SiFigma, SiTrello, SiGithub, SiSequelize, SiPrisma, SiMiro, SiNodedotjs, SiChai, SiMocha } from "react-icons/si";
+import React, { useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { SiHtml5, SiReact, SiRedux, SiMysql, SiTestinglibrary, SiJest, SiCss3, SiJavascript, SiDocker, SiGit, SiGithub, SiNodedotjs } from "react-icons/si";
 
-
-
-
-
-const renderSkills = (typeSkills) => {
-
-  const skillsNames = typeSkills === 'hardSkills' ? ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'NEXT.JS', 'DOCKER', 'MYSQL', 'GIT']
-    : ['Trabalho em equipe', 'Auto liderança', 'Resiliencia', 'Colaboração']
-
-  return (
-    <div>
-      <ul style={{ textAlign: 'start' }}>
-        {skillsNames.map((skill, index) => (
-          <li key={index}>{skill}
-            <SiHtml5></SiHtml5>
-          </li>
-
-        ))}
-      </ul>
-    </div>
-  );
-}
+import '../style/Skills.css'
 
 export default function Skill() {
-  return (
+  const [currentSkill, setCurrentSkill] = useState(0);
 
-    <section id="skills" style={{ padding: '60px', }}>
-      <h1 style={{ textAlign: 'center', fontSize: '35px' }}> HARD AND SOFT SKILLS</h1>
-      <div style={{ display: "flex", justifyContent: "center", gap: '40px', padding: '50px ', lineHeight: '25px', fontSize: '20px' }} >
-        {renderSkills('hardSkills')}
-        {renderSkills('softSkills')}
+  const settings = {
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    afterChange: (current) => setCurrentSkill(current),
+  };
+
+  const skills = [
+    <SiHtml5 className="skill" key="html5" />,
+    <SiReact className="skill" key="react" />,
+    <SiCss3 className="skill" key="css3" />,
+    <SiTestinglibrary className="skill" key="testing-library" />,
+    <SiJest className="skill" key="jest" />,
+    <SiJavascript className="skill" key="javascript" />,
+    <SiRedux className="skill" key="redux" />,
+    <SiGit className="skill" key="git" />,
+    <SiGithub className="skill" key="github" />,
+    <SiDocker className="skill" key="docker" />,
+    <SiNodedotjs className="skill" key="nodejs" />,
+    <SiMysql className="skill" key="mysql" />,
+  ];
+
+  return (
+    <section id="skills">
+      <h1>HARD AND SOFT SKILLS</h1>
+      <div>
+        <Slider {...settings}>
+          {skills.map((skill, index) => (
+            <div className="habilidades" key={index}>
+              {skill}
+            </div>
+          ))}
+        </Slider>
+        <div className="container-radio">
+          {skills.map((_, index) => (
+            <div className="radio-buttons">
+              <input
+                type="radio"
+                key={index}
+                id={`radio-${index}`}
+                name="slider-radios"
+                checked={index === currentSkill}
+                onChange={() => setCurrentSkill(index)}
+              />
+              <label htmlFor={`radio-${index}`}></label>u
+            </div>
+          ))}
+        </div>
       </div>
     </section>
-  )
+  );
 }
