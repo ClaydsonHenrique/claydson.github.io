@@ -75,9 +75,9 @@
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .slick-slide {
-    margin: 10px 5px !important;
+    margin: 10px 10px !important;
   }
 
   #skills {

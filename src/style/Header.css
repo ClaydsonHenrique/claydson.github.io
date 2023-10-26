@@ -186,7 +186,7 @@
 
 /* mobile */
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
  #header {
   width: 100%;
   padding: 10px 0;

@@ -68,7 +68,7 @@
   margin-top: 30px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .footer-img {
     display: none;
   }
