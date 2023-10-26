@@ -7,7 +7,6 @@ import { SiHtml5, SiReact, SiRedux, SiMysql, SiTestinglibrary, SiJest, SiCss3, S
 import '../style/Skills.css'
 
 export default function Skill() {
-  const [currentSkill, setCurrentSkill] = useState(0);
 
   const settings = {
     centerMode: true,
@@ -21,7 +20,7 @@ export default function Skill() {
     dots: false,
     responsive: [
       {
-        breakpoint: 420,
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
