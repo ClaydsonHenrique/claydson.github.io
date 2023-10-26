@@ -10,24 +10,33 @@ import '../style/Skills.css'
 export default function Skill() {
 
   const settings = {
-    centerMode: true,
-    infinite: true,
-    slidesToShow: 3,
-    speed: 1000,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: false,
-    responsive: [
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+  centerMode: true,
+  infinite: true,
+  slidesToShow: 3,
+  speed: 1000,
+  slidesToScroll: 1,
+  arrows: true, // Defina como true em configuração padrão
+  dots: false,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false, // Remova as setas em telas menores que 480 pixels
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
-    ]
-  };
+    },
+    {
+      breakpoint: 820,
+      settings: {
+        arrows: false, // Remova as setas em telas menores que 820 pixels
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
+
 
   const skills = [
     {
