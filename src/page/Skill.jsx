@@ -11,29 +11,23 @@ export default function Skill() {
 
   const settings = {
     centerMode: true,
-    centerPadding: '10px',
-    slidesToShow: 5,
-    speed: 500,
+    infinite: true,
+    slidesToShow: 3,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 3000,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
-    afterChange: (current) => setCurrentSkill(current),
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 420,
         settings: {
-          arrows: false,
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
           slidesToShow: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const skills = [
@@ -54,7 +48,7 @@ export default function Skill() {
   return (
     <section id="skills">
       <h1>HARD AND SOFT SKILLS</h1>
-      <div>
+      <div className="slideContainer">
         <Slider {...settings}>
           {skills.map((skill, index) => (
             <div className="habilidades" key={index}>
@@ -62,21 +56,6 @@ export default function Skill() {
             </div>
           ))}
         </Slider>
-        <div className="container-radio">
-          {skills.map((_, index) => (
-            <div className="radio-buttons">
-              <input
-                type="radio"
-                key={index}
-                id={`radio-${index}`}
-                name="slider-radios"
-                checked={index === currentSkill}
-                onChange={() => setCurrentSkill(index)}
-              />
-              <label htmlFor={`radio-${index}`}></label>u
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
