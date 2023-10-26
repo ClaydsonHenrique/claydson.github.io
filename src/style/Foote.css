@@ -54,7 +54,7 @@
 }
 
 .title-contato {
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -62,10 +62,6 @@
   font-size: 25px;
   color: white;
   border-bottom: 1px solid white;
-}
-
-.link-linkedin {
-  margin-top: 30px;
 }
 
 @media (max-width: 480px) {
@@ -105,15 +101,26 @@
     margin: 15px 0;
   }
 
-  .text-footer, .container-footer-1 p {
-    font-size: 14px;
+  .text-footer,
+  .container-footer-1 p {
+    font-size: 12px;
   }
 
-  .link-email,.link-linkedin {
+  .link-email,
+  .link-linkedin,
+  link-footer {
     font-size: 16px;
   }
-
+.link-footer{
+margin-top: -12px;
+}
   .container-footer {
     align-items: flex-start;
+  }
+
+  .contato {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px !important;
   }
 }

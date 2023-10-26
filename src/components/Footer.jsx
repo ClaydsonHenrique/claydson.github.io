@@ -27,9 +27,12 @@ export default function Footer() {
         </div>
         <div>
           <h1 className="title-contato">Entrar em contato:</h1>
-          <p className="text-footer">ME MANDE UM E-MAIL:</p>
-          <Link className="link-email">claydsonhenriquebs@gmail.com</Link>
-          <p className="link-linkedin">OU ENTRE EM CONTATO:<Link to='' className="link-footer">Linkedin</Link></p>
+          <div className="contato" style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            <p className="text-footer">ME MANDE UM E-MAIL:</p>
+            <p className="link-email">claydsonhenriquebs@gmail.com</p>
+            <p className="link-linkedin">OU ENTRE EM CONTATO:</p>
+            <Link to='' className="link-footer">Linkedin</Link>
+          </div>
         </div>
       </div>
       <span className="divisor-footer"></span>

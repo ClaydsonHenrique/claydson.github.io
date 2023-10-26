@@ -1,6 +1,6 @@
 #skills {
   width: 1600px;
-  margin: 30px auto 40px auto ;
+  margin: 30px auto 40px auto;
 }
 
 .container {
@@ -8,13 +8,13 @@
 }
 
 .habilidades {
-  width: 400px;
+  width: 600px;
   height: 600px;
   padding: 30px 0;
   margin-right: 30px;
   background-color: #5d6c83;
-  border-radius: 8px;
-transition: 0.3s linear;
+  border-radius: 20px;
+  transition: 0.3s linear;
 }
 
 .habilidades:hover {
@@ -24,13 +24,12 @@ transition: 0.3s linear;
 .radio-skil {
   height: 100px;
   width: 100px;
-  margin: auto;
+  margin: 20% auto 0 auto;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: blue;
-
 }
 
 .nameSkil {
@@ -55,56 +54,29 @@ transition: 0.3s linear;
   height: 100%;
 }
 
+.slick-next,
 .slick-prev {
-  background-color: #333;
-  color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #f9f7f7;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
-.slick-next {
-  background-color: #333;
-  color: #fff;
-  border: 2px solid #333;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
   z-index: 1;
 }
 
 
 .slick-slide {
-  margin: 30px 60px !important;
+  margin: 30px 45px !important;
 }
 
-
-.slick-prev, .slick-next {
-  width: 30px;
-  height: 30px;
-  color: #fff;
-  border: 2px solid #333;
-  border-radius: 50%;
-  position: absolute;
-  transform: translateY(-50%);
-}
 
 .slick-prev {
-  left: 20px;
+  left: 0;
 }
 
 .slick-next {
-  right: 10px;
+  right: 0;
 }
 
 
@@ -123,10 +95,26 @@ transition: 0.3s linear;
     font-size: 1.5em;
   }
 
-  .habilidades,.slideContainer {
+  .habilidades,
+  .slideContainer {
     height: 450px;
   }
-.nameSkil{
-font-size: 1.5em;
-}
+
+  .nameSkil {
+    font-size: 1.5em;
+  }
+
+  .container-text-01 {
+    font-size: 12px;
+  }
+
+  .radio-skil {
+    height: 70px;
+    width: 70px;
+    margin: 10% auto 0 auto;
+  }
+
+  .skill {
+    font-size: 35px;
+  }
 }
