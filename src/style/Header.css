@@ -187,14 +187,14 @@
 /* mobile */
 
 @media (max-width: 480px) {
- #header {
-  width: 100%;
-  padding: 10px 0;
-  background-color: var(--neutral--800);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  #header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--neutral--800);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   .nav {
     display: none;
@@ -202,6 +202,12 @@
 
   .logo {
     font-size: 12px;
+  }
+
+  #home {
+    padding: 0;
+    width: 100%;
+    text-align: start;
   }
 
   .detailsHome {
@@ -214,22 +220,30 @@
     height: auto;
   }
 
+  .text-02 {
+    max-width: 470px;
+    font-size: 12px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
   .container-title {
     width: 100%;
     margin: 10px 0;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 2em;
     line-height: 35px;
     margin-bottom: 10px;
   }
 
-  #home {
-    padding: 0;
-    width: 100%;
-    text-align: start;
-  }
 
   .traco {
     height: 1px;
@@ -254,7 +268,7 @@
   }
 
   .title-03 {
-    font-size: 32px;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 1.231em;
   }
@@ -282,7 +296,7 @@
 
   .about-03 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 15px;
   }
 
@@ -295,6 +309,7 @@
     margin-top: 10px;
     margin-bottom: 15px;
     line-height: 30px;
+    font-size: 12px;
   }
 
   .margin-top-text {

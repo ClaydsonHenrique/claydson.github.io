@@ -14,7 +14,7 @@ export default function AboutHome() {
           </div>
           <div className='container-AH-1 margin-top'>
             <h1 className='title-03 '>Minha jornada e objetivos</h1>
-            <p className=' margin-top-text'>Minha jornada de transição me ensinou a valorizar a determinação e a busca constante pelo conhecimento. Com uma base sólida em [JavaScript, React, Html, Css, Redux, Testes Unitarios], estou empenhado em criar soluções web inovadoras e de alta qualidade.</p>
+            <p className=' margin-top-text description-03'>Minha jornada de transição me ensinou a valorizar a determinação e a busca constante pelo conhecimento. Com uma base sólida em [JavaScript, React, Html, Css, Redux, Testes Unitarios], estou empenhado em criar soluções web inovadoras e de alta qualidade.</p>
           </div>
         </section>
       </Slide>

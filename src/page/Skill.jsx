@@ -2,7 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SiHtml5, SiReact, SiRedux, SiMysql, SiTestinglibrary, SiJest, SiCss3, SiJavascript, SiDocker, SiGit, SiGithub, SiNodedotjs } from "react-icons/si";
+import { SiHtml5, SiReact, SiRedux, SiMysql, SiTestinglibrary, SiJest, SiCss3, SiDocker, SiGit, SiGithub, SiNodedotjs } from "react-icons/si";
+import { DiJavascript } from 'react-icons/di'
 
 import '../style/Skills.css'
 
@@ -12,9 +13,7 @@ export default function Skill() {
     centerMode: true,
     infinite: true,
     slidesToShow: 3,
-    autoplay: true,
     speed: 1000,
-    autoplaySpeed: 3000,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
@@ -22,6 +21,7 @@ export default function Skill() {
       {
         breakpoint: 480,
         settings: {
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -30,28 +30,29 @@ export default function Skill() {
   };
 
   const skills = [
-    <SiHtml5 className="skill" key="html5" />,
-    <SiReact className="skill" key="react" />,
-    <SiCss3 className="skill" key="css3" />,
-    <SiTestinglibrary className="skill" key="testing-library" />,
-    <SiJest className="skill" key="jest" />,
-    <SiJavascript className="skill" key="javascript" />,
-    <SiRedux className="skill" key="redux" />,
-    <SiGit className="skill" key="git" />,
-    <SiGithub className="skill" key="github" />,
-    <SiDocker className="skill" key="docker" />,
-    <SiNodedotjs className="skill" key="nodejs" />,
-    <SiMysql className="skill" key="mysql" />,
+    <SiHtml5 className="skill" key="HTML5" />,
+    <SiReact className="skill" key="REACT" />,
+    <SiCss3 className="skill" key="CSS3" />,
+    <SiTestinglibrary className="skill" key="RTL" />,
+    <SiJest className="skill" key="JEST" />,
+    <DiJavascript className="skill" key="JAVASCRIPT" />,
+    <SiRedux className="skill" key="REDUX" />,
+    <SiGit className="skill" key="GIT" />,
+    <SiGithub className="skill" key="GITHUB" />,
+    <SiDocker className="skill" key="DOCKER" />,
+    <SiNodedotjs className="skill" key="NODE.JS" />,
+    <SiMysql className="skill" key="MYSQL" />,
   ];
 
   return (
     <section id="skills">
-      <h1>HARD AND SOFT SKILLS</h1>
+      <h1 className="title-04">HARD AND SOFT SKILLS</h1>
       <div className="slideContainer">
         <Slider {...settings}>
           {skills.map((skill, index) => (
             <div className="habilidades" key={index}>
-              {skill}
+              <div className="radio-skil"> {skill}</div>
+              <h3 className="nameSkil">{skill.key}</h3>
             </div>
           ))}
         </Slider>

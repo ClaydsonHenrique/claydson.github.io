@@ -1,6 +1,6 @@
 #skills {
   width: 1600px;
-  margin: auto;
+  margin: 30px auto 40px auto ;
 }
 
 .container {
@@ -9,28 +9,44 @@
 
 .habilidades {
   width: 400px;
-  height: 350px;
+  height: 600px;
   padding: 30px 0;
   margin-right: 30px;
   background-color: #5d6c83;
   border-radius: 8px;
-}
-
-.skill {
-  height: 90px;
-  width: 90px;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: blue;
-  color: rgb(162, 162, 233);
+transition: 0.3s linear;
 }
 
 .habilidades:hover {
   transform: scale(1.1);
 }
 
+.radio-skil {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+
+}
+
+.nameSkil {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.skill {
+  font-size: 50px;
+}
+
 .slideContainer {
-  height: 400px;
+  height: 600px;
 }
 
 .slick-initialized .slick-track {
@@ -38,8 +54,6 @@
   align-items: center;
   height: 100%;
 }
-
-
 
 .slick-prev {
   background-color: #333;
@@ -75,12 +89,44 @@
 }
 
 
+.slick-prev, .slick-next {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+
+
 @media (max-width: 480px) {
   .slick-slide {
     margin: 10px 10px !important;
   }
 
   #skills {
-    width: 370px;
+    width: 100%;
   }
+
+  .title-04 {
+    margin: 20px 0 15px 0;
+    font-size: 1.5em;
+  }
+
+  .habilidades,.slideContainer {
+    height: 450px;
+  }
+.nameSkil{
+font-size: 1.5em;
+}
 }
