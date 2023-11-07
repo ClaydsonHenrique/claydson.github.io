@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0;
 }
+
 
 .footer-img {
   background-color: white;
@@ -12,19 +14,28 @@
   border-radius: 50%;
 }
 
-.divisor-footer {
-  display: block;
-  height: 1px;
+
+.img-bg-footer {
+  background: url('../images/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg') lightgray 50% / cover no-repeat;
+  background-size: 100% ;
+  background-position: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  height: 32.77313rem;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .container-footer {
-  width: 1600px;
-  padding: 50px 0;
+  width: 100%;
+  position: absolute;
+  height: 32.77313rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   line-height: 30px;
+  z-index: 1;
 }
 
 .dados-footer {
@@ -40,7 +51,12 @@
 }
 
 .container-footer-1 {
-  padding: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 7.125rem;
+  flex-shrink: 0;
+  background: #000;
+  z-index: 1000;
 }
 
 .container-social-footer {
@@ -110,7 +126,6 @@
   .link-email,
   .link-linkedin,
   .link-footer {
-    /* Adicionei o ponto (.) antes de link-footer */
     font-size: 16px;
   }
 
@@ -120,16 +135,13 @@
 
   .container-footer {
     max-width: 100%;
-    /* Defina uma largura máxima para evitar que o conteúdo saia da tela */
     margin: 0 auto;
-    /* Centralize o conteúdo na tela */
   }
 
 
   .contato {
     flex-direction: column;
     align-items: flex-start !important;
-    /* O uso de !important não é recomendado, tente evitar se possível. */
     gap: 10px !important;
   }
 }

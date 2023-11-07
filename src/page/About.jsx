@@ -3,7 +3,8 @@ import { Slide } from "react-awesome-reveal";
 
 export default function AboutHome() {
   return (
-    <main className='aboutHome'>
+    <main className='aboutHome' id='about'>
+      <div className='img-bg'> </div>
       <Slide triggerOnce>
         <section className='containerAboutHome'>
           {/* mais uma explicação breve */}
@@ -15,6 +16,7 @@ export default function AboutHome() {
           <div className='container-AH-1 margin-top'>
             <h1 className='title-03 '>Minha jornada e objetivos</h1>
             <p className=' margin-top-text description-03'>Minha jornada de transição me ensinou a valorizar a determinação e a busca constante pelo conhecimento. Com uma base sólida em [JavaScript, React, Html, Css, Redux, Testes Unitarios], estou empenhado em criar soluções web inovadoras e de alta qualidade.</p>
+          <button className="curriculo">Acesse meu Curriculo</button>
           </div>
         </section>
       </Slide>
