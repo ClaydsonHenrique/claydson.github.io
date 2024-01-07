@@ -17,7 +17,7 @@
 
 .img-bg-footer {
   background: url('../images/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg') lightgray 50% / cover no-repeat;
-  background-size: 100% ;
+  background-size: 100%;
   background-position: 50%;
   flex-shrink: 0;
   overflow: hidden;
@@ -52,20 +52,21 @@
   font-size: 40px;
   color: white;
 }
+
 .container-social-footer {
-display: flex;
-flex-direction: column;
-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
 }
 
-.social-link{
+.social-link {
   color: #D2D2D2;
-    font-family: Roboto;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .container-footer-1 {
@@ -119,7 +120,6 @@ gap: 20px;
 
   #footer {
     width: 100%;
-    padding: 20px 0;
     display: flex;
     flex-direction: column;
   }
@@ -179,6 +179,12 @@ gap: 20px;
 }
 
 @media (max-width: 480px) {
+
+  #footer {
+    width: 100%;
+    padding: 0;
+  }
+
   .footer-img {
     display: none !important;
   }
@@ -190,6 +196,11 @@ gap: 20px;
     background-color: white;
   }
 
+  .img-bg-footer {
+    background: url('../images/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg') lightgray 50% / cover no-repeat;
+    background-size: cover;
+  }
+
   .container-footer {
     width: 100%;
     padding: 20px 0;
@@ -199,12 +210,6 @@ gap: 20px;
     line-height: 30px;
   }
 
-  #footer {
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-  }
 
   .container-footer-1 {
     height: 100%;
