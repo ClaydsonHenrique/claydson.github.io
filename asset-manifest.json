@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.ba186a31.css",
-    "main.js": "/claydson.github.io/static/js/main.f178ae85.js",
+    "main.css": "/claydson.github.io/static/css/main.8f4441f6.css",
+    "main.js": "/claydson.github.io/static/js/main.98ed1026.js",
     "static/media/StockSnap_1STVFMTBJY.jpg": "/claydson.github.io/static/media/StockSnap_1STVFMTBJY.05919b0696b8324c5383.jpg",
     "static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg": "/claydson.github.io/static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.4f803418afa5af7db1a2.jpg",
+    "static/media/comic.png": "/claydson.github.io/static/media/comic.fd4e65f7c5174e37cf1d.png",
+    "static/media/jogo-da-memoria.png": "/claydson.github.io/static/media/jogo-da-memoria.49cfd66581e3b349d759.png",
+    "static/media/onlineStore.png": "/claydson.github.io/static/media/onlineStore.9e7710e8bc500f646fa7.png",
     "static/media/claydson.png": "/claydson.github.io/static/media/claydson.0567bb103e56afcd4b31.png",
+    "static/media/aaa.png": "/claydson.github.io/static/media/aaa.a4d696d8f2190fa0a6d3.png",
+    "static/media/imgBackend.jpg": "/claydson.github.io/static/media/imgBackend.1bfb326d0536bdeb1e47.jpg",
+    "static/media/trivia.png": "/claydson.github.io/static/media/trivia.946fc18806ba50944411.png",
     "static/media/slick.svg": "/claydson.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/claydson.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/claydson.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/claydson.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/claydson.github.io/index.html",
-    "main.ba186a31.css.map": "/claydson.github.io/static/css/main.ba186a31.css.map",
-    "main.f178ae85.js.map": "/claydson.github.io/static/js/main.f178ae85.js.map"
+    "main.8f4441f6.css.map": "/claydson.github.io/static/css/main.8f4441f6.css.map",
+    "main.98ed1026.js.map": "/claydson.github.io/static/js/main.98ed1026.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba186a31.css",
-    "static/js/main.f178ae85.js"
+    "static/css/main.8f4441f6.css",
+    "static/js/main.98ed1026.js"
   ]
 }
