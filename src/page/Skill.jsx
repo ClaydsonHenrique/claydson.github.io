@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SiHtml5, SiReact, SiRedux, SiTestinglibrary, SiJest, SiCss3, SiDocker, SiGit, SiGithub, SiNodedotjs } from "react-icons/si";
+import { SiHtml5, SiReact, SiRedux, SiTestinglibrary, SiJest, SiCss3, SiDocker, SiGit, SiGithub, SiNodedotjs, SiTypescript, SiSequelize } from "react-icons/si";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { DiJavascript, DiMysql } from 'react-icons/di'
 
@@ -45,6 +45,12 @@ export default function Skill() {
   const skills = [
     {
       icone: <SiHtml5 className="skill" key="HTML5" />,
+    },
+    {
+      icone: <SiTypescript className="skill" key="TypeScript" />,
+    },
+    {
+      icone: <SiSequelize className="skill" key="Sequelize" />,
     },
     {
       icone: <SiReact className="skill" key="REACT" />,
