@@ -1,0 +1,77 @@
+@media (max-width: 480px) {
+#header {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    font-size: 12px;
+  }
+
+  #home {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+  }
+
+  .detailsHome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .homeImage {
+    position: absolute;
+    max-width: 50%;
+    top: 22%;
+    right: -23%;
+    z-index: 0;
+  }
+
+  .text-02 {
+    max-width: 380px;
+    font-size: 1rem;
+  }
+
+  .hello,
+  .subtitleHome {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .social {
+    font-size: 35px;
+  }
+
+  .container-title {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 1.5em;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+
+  .traco {
+    height: 1px;
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .subtitle {
+    margin-bottom: 25px;
+  }
+
+}

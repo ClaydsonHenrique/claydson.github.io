@@ -1,5 +1,5 @@
 #header {
-  width: 1600px;
+  width: 100%;
   padding: 10px 0;
   display: flex;
   margin: auto;
@@ -10,7 +10,7 @@
 .nav {
   display: flex;
   width: 34.5rem;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -28,8 +28,9 @@
 }
 
 #home {
-  width: 1600px;
+  width: 100%;
   display: flex;
+  justify-content: center;
   margin: auto;
   overflow: hidden;
 }
@@ -260,17 +261,12 @@
     display: none;
   }
 
-  .logo {
-    font-size: 15px;
-  }
-
   #home {
-    padding: 0;
     width: 100%;
-    text-align: start;
   }
 
   .detailsHome {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -299,7 +295,7 @@
   }
 
   .title {
-    font-size: 2em;
+    font-size: 1em;
     line-height: 35px;
     margin-bottom: 10px;
   }
@@ -380,147 +376,6 @@
 /* mobile */
 
 @media (max-width: 480px) {
-  #header {
-    display: none;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .logo {
-    font-size: 12px;
-  }
-
-  #home {
-    padding: 10px 10px 0 10px ;
-    width: 100%;
-  }
-
-  .detailsHome {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-
-  .homeImage {
-    position: absolute;
-    max-width: 50%;
-    top: 22%;
-    right: -23%;
-    z-index: 0;
-  }
-
-  .text-02 {
-    max-width: 380px;
-    font-size: 1rem;
-  }
-
-  .hello, .subtitleHome{
-    font-size: 1.5rem;
-  }
-  
-  .subtitle {
-    font-size: 18px;
-  }
-
-  .link {
-    font-size: 16px;
-  }
-.social {
-  font-size: 35px;
-}
-  .container-title {
-    width: 100%;
-    z-index: 1;
-  }
-
-  .title {
-    font-size: 1.5em;
-    line-height: 35px;
-    margin-bottom: 10px;
-  }
-
-
-  .traco {
-    height: 1px;
-    width: 100%;
-    margin: 25px auto;
-  }
-
-  .subtitle {
-    margin-bottom: 25px;
-  }
-
-  .aboutHome {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-  }
-
-  .img-bg {
-    display: none;
-  }
-
-  .containerAboutHome {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .title-03 {
-    font-size: 1.5em;
-    font-weight: 700;
-    line-height: 1.231em;
-  }
-
-  .link-03 {
-    color: var(--neutral--100);
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.417em;
-    padding: 10px 0;
-    border-bottom: 3px solid rgb(112, 111, 111);
-    transition: 0.3s ease;
-  }
-
-  .link-03:hover {
-    border-bottom: 3px solid rgb(255, 255, 255);
-  }
-
-  .container-AH-1 {
-    text-align: start;
-    width: 100%;
-    height: 100%;
-    padding: 10px 0;
-  }
-
-  .about-03 {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-
-  .bg-blue {
-    margin-right: 5px;
-    color: var(--accent--primary-1);
-  }
-
-  .description-03 {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    line-height: 30px;
-    font-size: 12px;
-  }
-
-  .margin-top-text {
-    margin-top: 15px;
-  }
-
-  .curriculo {
-    width: 16rem;
-    height: 4rem;
-  }
-
+ 
+ 
 }
