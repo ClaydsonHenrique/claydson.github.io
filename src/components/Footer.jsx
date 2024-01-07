@@ -11,24 +11,14 @@ export default function Footer() {
       <div className="container-footer">
         <div className="dados-footer">
           <img src={perfil} alt="" className="footer-img" />
-          <div>
-            <h1>Claydson Henrique</h1>
-            <h3>Desenvolvedor Web front-end</h3>
             <div className="container-social-footer">
-              <Link to='https://github.com/ClaydsonHenrique' target="_blank" className='social-footer'><AiFillGithub></AiFillGithub></Link>
-              <Link to='https://www.linkedin.com/in/claydson/' target="_blank" className='social-footer'><AiFillLinkedin></AiFillLinkedin></Link>
-              <Link to='https://www.instagram.com/_claydson/' target="_blank" className='social-footer'><AiOutlineInstagram></AiOutlineInstagram></Link>
+            <Link to='https://github.com/ClaydsonHenrique' target="_blank" className='social-footer'><AiFillGithub></AiFillGithub> <span className="social-link">github.com/ClaydsonHenrique</span></Link>
+            <Link to='https://www.linkedin.com/in/claydson/' target="_blank" className='social-footer'><AiFillLinkedin></AiFillLinkedin><span className="social-link">linkedin.com/in/claydson/</span></Link>
+            <Link to='https://www.instagram.com/_claydson/' target="_blank" className='social-footer'><AiOutlineInstagram></AiOutlineInstagram><span className="social-link">instagram.com/_claydson/</span></Link>
             </div>
-          </div>
         </div>
         <div>
-          <h1 className="title-contato">Entrar em contato:</h1>
-          <div className="contato" style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-            <p className="text-footer">ME MANDE UM E-MAIL:</p>
-            <p className="link-email">claydsonhenriquebs@gmail.com</p>
-            <p className="link-linkedin">OU ENTRE EM CONTATO:</p>
-            <Link to='' className="link-footer">Linkedin</Link>
-          </div>
+        
         </div>
       </div>
       <div className="container-footer-1">
