@@ -83,7 +83,7 @@ export default function Skill() {
 
   return (
     <section id="skills">
-      <h1 className="title-04">HARD SKILLS</h1>
+      <h1 className='subtitles' ><span className='designTitles'>{'<'}</span> Skils <span className='designTitles'>{'/>'}</span></h1>
       <div className="slideContainer">
         <Slider {...settings}>
           {skills.map((skill, index) => (
