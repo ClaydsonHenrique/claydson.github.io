@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Slide } from "react-awesome-reveal";
 import OnlineStore from '../images/projetos/onlineStore.png'
 import MusicApps from '../images/projetos/aaa.png'
 import backEnd from '../images/projetos/imgBackend.jpg'
@@ -46,6 +47,7 @@ export default function Projects() {
   }, []);
   
   return (
+  <Slide triggerOnce>
     <section className="container-projetct" id="projects" >
       <div id="Projects" >
         <div>
@@ -68,5 +70,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
+    </Slide>
   )
 }
