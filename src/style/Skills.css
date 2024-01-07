@@ -128,8 +128,9 @@
   }
 
   #skills {
+    padding: 10px;
     width: 100%;
-    margin-bottom: -100px
+   margin: -20px 0 -200px 0;
   }
 
   .title-04 {

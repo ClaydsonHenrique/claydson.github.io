@@ -25,7 +25,6 @@ export default function Home() {
           <p className='subtitleHome'>Web Developer</p>
           {/* descrição */}
           <p className='text-02'>I'm 24 years old, a web developer based in Luziânia-Goiás. I have a passion for creating web pages and solving problems.</p>
-
           <div>
             <div>
               <Link to='https://github.com/ClaydsonHenrique' target="_blank" className='social'><AiFillGithub></AiFillGithub>

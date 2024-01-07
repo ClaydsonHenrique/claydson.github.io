@@ -26,7 +26,7 @@ export default function Skill() {
         breakpoint: 480,
         settings: {
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 1.4,
           slidesToScroll: 1
         }
       },

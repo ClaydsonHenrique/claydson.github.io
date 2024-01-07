@@ -114,4 +114,7 @@
   .detailsProjects {
       grid-template-columns:  22.26rem;
     }
+    .container-projetct{
+      padding: 10px;
+    }
 }

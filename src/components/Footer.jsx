@@ -2,12 +2,15 @@ import React from "react";
 import perfil from '../images/claydson.png'
 import { Link } from "react-router-dom";
 import '../style/Foote.css'
+import bgfooter from "../images/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg"
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 
 export default function Footer() {
   return (
     <section id="footer">
-      <div className="img-bg-footer"></div>
+      <div className="img-bg-footer">
+        <img src={bgfooter} alt="" />
+      </div>
       <div className="container-footer">
         <div className="dados-footer">
           <img src={perfil} alt="" className="footer-img" />
@@ -17,8 +20,8 @@ export default function Footer() {
             <Link to='https://www.instagram.com/_claydson/' target="_blank" className='social-footer'><AiOutlineInstagram></AiOutlineInstagram><span className="social-link">instagram.com/_claydson/</span></Link>
             </div>
         </div>
-        <div>
-        
+        <div className="containerCurriculo">
+          <button className="curriculo">Acesse meu Curriculo</button>
         </div>
       </div>
       <div className="container-footer-1">
