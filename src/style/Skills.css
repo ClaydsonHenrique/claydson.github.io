@@ -81,44 +81,4 @@
 }
 
 
-@media (max-width: 820px) {
-  .slick-slide {
-    margin: 10px !important;
-  }
-
-  #skills {
-    width: 100%;
-  }
-
-
-  .containerAboutHome {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .title-04 {
-    margin: 20px 0 15px 0;
-    font-size: 1.5em;
-  }
-
-  .slick-next,
-  .slick-prev {
-    display: none !important;
-  }
-
-  .slideContainer {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .nameSkil {
-    font-size: 1.5em;
-  }
-
-  .container-text-01 {
-    font-size: 12px;
-  }
-
-
-}
 

@@ -1,0 +1,6 @@
+@media (max-width: 820px) {
+  .detailsProjects {
+      display: grid;
+      grid-template-columns:  22.26rem;
+    }
+}
