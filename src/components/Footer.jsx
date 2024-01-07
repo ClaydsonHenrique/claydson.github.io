@@ -22,7 +22,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="container-footer-1">
-        <p>Todos direitos reservados. © 2023 <span>Claydson Henrique</span></p>
+        <p className="textFooter">@ 2023 <span className="textBlue">claydsonhenrique</span> - Design by <span className="textBlue"> Henrique Macedo</span> </p>
+        <p className="textFooter">Site feito em <span className="textBlue">React - CSS3 </span> </p>
       </div>
     </section>
   )
