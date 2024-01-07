@@ -12,7 +12,7 @@
   }
 
   #home {
-    padding: 10px 10px 0 10px;
+    padding: 10px 0 0 10px;
     width: 100%;
   }
 
@@ -20,13 +20,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
   }
 
   .homeImage {
     position: absolute;
-    max-width: 50%;
+    max-width: 100%;
     top: 22%;
-    right: -23%;
+    right: -37%;
     z-index: 0;
   }
 

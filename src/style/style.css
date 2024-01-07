@@ -12,11 +12,7 @@
 @import url(./notebooks/); */
 
 /* estilos tables */
-@import url(./tablet/Aboute.tablet.css);
-@import url(./tablet/Home.tablet.css);
-@import url(./tablet/Project.tablet.css);
-@import url(./tablet/Skill.tablet.css);
-@import url(./tablet/Footer.tablet.css);
+@import url(./tablet/Tablet.css);
 
 /* estilos mobiles */
 @import url(./mobile/Aboute.mobile.css);
