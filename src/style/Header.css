@@ -136,11 +136,13 @@
 }
 
 .aboutHome {
+  width: 100%;
   background-color: #090A0C;
-  height: 58.625rem;
+  height: 100%;
+  padding: 50px 0;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: flex-end;
   position: relative;
 }
 
@@ -154,7 +156,7 @@
   left: 0;
   opacity: 0.5;
   width: 55rem;
-  height: 58.625rem;
+  height: 100%;
   animation: fadeIn 4s linear forwards;
   mask-image: linear-gradient(to left, transparent, black);
 }
@@ -170,11 +172,10 @@
 }
 
 .containerAboutHome {
-  width: 1600px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
 }
 
 .title-03 {
@@ -199,7 +200,7 @@
 
 .container-AH-1 {
   width: 700px;
-  height: 400px;
+  height: 100%;
   text-align: start;
 }
 

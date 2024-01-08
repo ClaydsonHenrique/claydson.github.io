@@ -51,7 +51,7 @@ export default function Projects() {
     <section className="container-projetct" id="projects" >
       <div id="Projects" >
         <div>
-          <h3 className='subtitles' ><span className='designTitles'>{'<'}</span> Laboratorio <span className='designTitles'>{'/>'}</span></h3>
+            <h3 className='about-03' ><span className='textBlue'>{'<'}</span> LABORATORIO <span className='textBlue'>{'/ >'}</span></h3>
           <div className="detailsProjects">
             {projects.map((project, index) => (
               <div className={ project.image ? 'projeto' : ' projeto center' }  >
