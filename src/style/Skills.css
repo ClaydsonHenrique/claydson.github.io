@@ -1,20 +1,12 @@
 #skills {
-  width: 1600px;
+  border: 1px solid white;
+  width: 1400px;
   margin: 30px auto 40px auto;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 .container {
   display: flex;
-}
-
-.habilidades {
-  width: 600px;
-  height: 400px;
-  padding: 30px 0;
-  margin-right: 30px;
-  border-radius: 20px;
-  transition: 0.3s linear;
 }
 
 .habilidades:hover {
@@ -46,10 +38,6 @@
   height: 5.625rem;
 }
 
-.slideContainer {
-  height: 400px;
-}
-
 .slick-initialized .slick-track {
   display: flex;
   align-items: center;
@@ -66,19 +54,13 @@
   color: white;
 }
 
+.slick-next:hover,
+.slick-prev:hover {
+  color: rgba(73, 84, 90, 0.8);
+}
+
 
 .slick-slide {
   margin: 30px 45px !important;
 }
-
-
-.slick-prev {
-  left: -80px;
-}
-
-.slick-next {
-  right: -80px;
-}
-
-
 
