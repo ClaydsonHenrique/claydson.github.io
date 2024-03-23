@@ -21,6 +21,8 @@ export default function Skill() {
     arrows: true,
     dots: false,
     autoplay: true,
+    swipeToSlide: true,
+    draggable: true,
     responsive: [
       {
         breakpoint: 480,

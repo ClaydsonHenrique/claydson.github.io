@@ -1,6 +1,5 @@
 #skills {
-  border: 1px solid white;
-  width: 1400px;
+  max-width: 1400px;
   margin: 30px auto 40px auto;
   padding: 50px 0 0 0;
 }
