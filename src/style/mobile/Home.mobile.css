@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 #header {
     display: none;
   }
@@ -23,13 +23,6 @@
     overflow: hidden;
   }
 
-  .homeImage {
-    position: absolute;
-    max-width: 100%;
-    top: 22%;
-    right: -37%;
-    z-index: 0;
-  }
 
   .text-02 {
     max-width: 380px;
@@ -75,4 +68,11 @@
     margin-bottom: 25px;
   }
 
+}
+
+@media (max-width: 480px) {
+    .homeImage {
+        right: -32%;
+  
+      }
 }

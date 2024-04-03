@@ -1,7 +1,13 @@
 #Projects {
-max-width: 1400px;
   margin: 0 auto;
   position: relative;
+}
+
+.container-projetct {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .subtitles {
@@ -41,7 +47,7 @@ max-width: 1400px;
 
 
 .imgProjects {
-  width: 21.85rem;
+  width: 100%;
   height: 15.00294rem;
   background-size: cover;
   background-position: center;
@@ -108,5 +114,10 @@ max-width: 1400px;
   }
 }
 
+@media (max-width: 1420px) {
+  .about-03{
+    margin-left: 10px;
+  }
+}
 
 

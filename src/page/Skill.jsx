@@ -33,10 +33,10 @@ export default function Skill() {
         }
       },
       {
-        breakpoint: 820,
+        breakpoint: 1024,
         settings: {
           arrows: false,
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       }
@@ -91,7 +91,7 @@ export default function Skill() {
 
   return (
     <section id="skills">
-      <h1 className='about-03' ><span className='textBlue'>{'<'}</span> SKILS <span className='textBlue'>{'/ >'}</span></h1>
+      <h1 className='about-03 textMargin' ><span className='textBlue'>{'<'}</span> SKILS <span className='textBlue'>{'/ >'}</span></h1>
       <div className="slideContainer">
         <Slider {...settings}>
           {skills.map((skill, index) => (

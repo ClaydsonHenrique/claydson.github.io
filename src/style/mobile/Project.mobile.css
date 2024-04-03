@@ -1,5 +1,6 @@
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .detailsProjects {
+    justify-items:center;
     grid-template-columns: 22.26rem;
   }
 

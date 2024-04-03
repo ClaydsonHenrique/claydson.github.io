@@ -22,9 +22,9 @@ export default function Home() {
           {/* titulo */}
           <p className='hello'>Hello!</p>
           <p className="whi-500 title " >I´m Claydson Henrique</p>
-          <p className='subtitleHome'>Web Developer</p>
+          <p className='subtitleHome'>Desenvolvedor full stack</p>
           {/* descrição */}
-          <p className='text-02'>I'm 24 years old, a web developer based in Luziânia-Goiás. I have a passion for creating web pages and solving problems.</p>
+          <p className='text-02'>Tenho 24 anos, sou um desenvolvedor web baseado em Luziânia-Goiás. Tenho paixão por criar páginas web e resolver problemas.</p>
           <div>
             <div>
               <Link to='https://github.com/ClaydsonHenrique' target="_blank" className='social'><AiFillGithub></AiFillGithub>

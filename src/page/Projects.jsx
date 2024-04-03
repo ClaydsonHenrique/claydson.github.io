@@ -49,9 +49,10 @@ export default function Projects() {
   return (
   <Slide triggerOnce>
     <section className="container-projetct" id="projects" >
+        <h3 className='about-03' ><span className='textBlue'>{'<'}</span> LABORATORIO <span className='textBlue'>{'/ >'}</span></h3>
       <div id="Projects" >
         <div>
-            <h3 className='about-03' ><span className='textBlue'>{'<'}</span> LABORATORIO <span className='textBlue'>{'/ >'}</span></h3>
+           
           <div className="detailsProjects">
             {projects.map((project, index) => (
               <div className={ project.image ? 'projeto' : ' projeto center' }  >
