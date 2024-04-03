@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.faf7e549.css",
-    "main.js": "/claydson.github.io/static/js/main.b38fe82d.js",
+    "main.css": "/claydson.github.io/static/css/main.dede99c9.css",
+    "main.js": "/claydson.github.io/static/js/main.28da25d3.js",
     "static/media/StockSnap_1STVFMTBJY.jpg": "/claydson.github.io/static/media/StockSnap_1STVFMTBJY.05919b0696b8324c5383.jpg",
     "static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg": "/claydson.github.io/static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.4f803418afa5af7db1a2.jpg",
     "static/media/comic.png": "/claydson.github.io/static/media/comic.fd4e65f7c5174e37cf1d.png",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "/claydson.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/claydson.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/claydson.github.io/index.html",
-    "main.faf7e549.css.map": "/claydson.github.io/static/css/main.faf7e549.css.map",
-    "main.b38fe82d.js.map": "/claydson.github.io/static/js/main.b38fe82d.js.map"
+    "main.dede99c9.css.map": "/claydson.github.io/static/css/main.dede99c9.css.map",
+    "main.28da25d3.js.map": "/claydson.github.io/static/js/main.28da25d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf7e549.css",
-    "static/js/main.b38fe82d.js"
+    "static/css/main.dede99c9.css",
+    "static/js/main.28da25d3.js"
   ]
 }
