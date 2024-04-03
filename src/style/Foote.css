@@ -33,7 +33,7 @@
 }
 
 .container-footer {
-  width: 1400px;
+  max-width: 1400px;
   position: absolute;
   height: 32.77313rem;
   display: flex;
