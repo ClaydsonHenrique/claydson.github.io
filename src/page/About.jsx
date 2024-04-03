@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Slide } from "react-awesome-reveal";
-import PDFViewer from '../components/PdfView';
-import { Link } from 'react-router-dom';
 import curriculo from '../images/curriculo/Curriculo2.pdf'
 export default function AboutHome() {
 

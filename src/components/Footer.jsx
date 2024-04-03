@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import '../style/Foote.css'
 import bgfooter from "../images/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg"
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import curriculo from '../images/curriculo/Curriculo2.pdf'
 
 export default function Footer() {
   return (
@@ -21,7 +22,7 @@ export default function Footer() {
             </div>
         </div>
         <div className="containerCurriculo">
-          <button className="curriculo">Acesse meu Curriculo</button>
+          <button className="curriculo" onClick={() => window.open(curriculo, '_blank')}>Acesse meu Curriculo</button>
         </div>
       </div>
       <div className="container-footer-1">

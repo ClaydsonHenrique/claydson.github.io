@@ -31,17 +31,13 @@
 
 #home {
   max-width: 1400px;
-  /* Remova a largura fixa */
   display: flex;
   justify-content: center;
   margin: auto;
-  /* overflow: hidden; */
-  /* Remova overflow hidden */
 }
 
 .detailsHome {
   width: 100%;
-  /* Ajuste para largura total */
   display: flex;
   justify-content: space-between;
   opacity: 0;
