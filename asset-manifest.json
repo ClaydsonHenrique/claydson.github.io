@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/claydson.github.io/static/css/main.dede99c9.css",
-    "main.js": "/claydson.github.io/static/js/main.28da25d3.js",
-    "static/media/StockSnap_1STVFMTBJY.jpg": "/claydson.github.io/static/media/StockSnap_1STVFMTBJY.05919b0696b8324c5383.jpg",
-    "static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg": "/claydson.github.io/static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.4f803418afa5af7db1a2.jpg",
-    "static/media/comic.png": "/claydson.github.io/static/media/comic.fd4e65f7c5174e37cf1d.png",
-    "static/media/jogo-da-memoria.png": "/claydson.github.io/static/media/jogo-da-memoria.49cfd66581e3b349d759.png",
-    "static/media/onlineStore.png": "/claydson.github.io/static/media/onlineStore.9e7710e8bc500f646fa7.png",
-    "static/media/claydson.png": "/claydson.github.io/static/media/claydson.0567bb103e56afcd4b31.png",
-    "static/media/aaa.png": "/claydson.github.io/static/media/aaa.a4d696d8f2190fa0a6d3.png",
-    "static/media/Curriculo2.pdf": "/claydson.github.io/static/media/Curriculo2.f9a9a8c136927f671d93.pdf",
-    "static/media/imgBackend.jpg": "/claydson.github.io/static/media/imgBackend.1bfb326d0536bdeb1e47.jpg",
-    "static/media/trivia.png": "/claydson.github.io/static/media/trivia.946fc18806ba50944411.png",
-    "static/media/slick.svg": "/claydson.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/claydson.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/claydson.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/claydson.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/claydson.github.io/index.html",
-    "main.dede99c9.css.map": "/claydson.github.io/static/css/main.dede99c9.css.map",
-    "main.28da25d3.js.map": "/claydson.github.io/static/js/main.28da25d3.js.map"
+    "main.css": "/static/css/main.a1539549.css",
+    "main.js": "/static/js/main.2d2b36a6.js",
+    "static/media/StockSnap_1STVFMTBJY.jpg": "/static/media/StockSnap_1STVFMTBJY.05919b0696b8324c5383.jpg",
+    "static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.jpg": "/static/media/renderizacao-3d-de-um-design-de-poliplexo-baixo-com-estrutura-de-comunicacao-de-rede.4f803418afa5af7db1a2.jpg",
+    "static/media/comic.png": "/static/media/comic.fd4e65f7c5174e37cf1d.png",
+    "static/media/jogo-da-memoria.png": "/static/media/jogo-da-memoria.49cfd66581e3b349d759.png",
+    "static/media/onlineStore.png": "/static/media/onlineStore.9e7710e8bc500f646fa7.png",
+    "static/media/claydson.png": "/static/media/claydson.0567bb103e56afcd4b31.png",
+    "static/media/aaa.png": "/static/media/aaa.a4d696d8f2190fa0a6d3.png",
+    "static/media/Curriculo2.pdf": "/static/media/Curriculo2.f9a9a8c136927f671d93.pdf",
+    "static/media/imgBackend.jpg": "/static/media/imgBackend.1bfb326d0536bdeb1e47.jpg",
+    "static/media/trivia.png": "/static/media/trivia.946fc18806ba50944411.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a1539549.css.map": "/static/css/main.a1539549.css.map",
+    "main.2d2b36a6.js.map": "/static/js/main.2d2b36a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dede99c9.css",
-    "static/js/main.28da25d3.js"
+    "static/css/main.a1539549.css",
+    "static/js/main.2d2b36a6.js"
   ]
 }
